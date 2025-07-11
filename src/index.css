@@ -1,0 +1,38 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* 추가 커스텀 스타일 */
+.scratch-container {
+  position: relative;
+  display: inline-block;
+}
+
+.scratch-container canvas {
+  border-radius: 8px;
+  box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06);
+}
+
+/* 애니메이션 */
+@keyframes slideInRight {
+  from {
+    opacity: 0;
+    transform: translateX(100%);
+  }
+  to {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+
+.notification-enter {
+  animation: slideInRight 0.3s ease-out;
+}
+
+/* 반응형 조정 */
+@media (max-width: 640px) {
+  .scratch-container canvas {
+    max-width: 100%;
+    height: auto;
+  }
+}

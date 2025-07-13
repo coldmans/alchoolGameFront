@@ -101,6 +101,7 @@ function HiddenCardAnimation({ isVisible, originalName, finalName, onComplete }:
             </div>
           )}
         </div>
+      
         
         {/* 하단 메시지 */}
         {phase === 2 && (

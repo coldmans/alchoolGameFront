@@ -87,7 +87,7 @@ function HiddenCardAnimation({ isVisible, originalName, finalName, onComplete }:
         }}>
           {phase === 1 ? (
             <div>
-              <div className="text-2xl mb-2">대상 변경 중...</div>
+              <div className="text-2xl mb-2">슈퍼 크랙!!!!!!!.</div>
               <div>{originalName || 'Player'} → ???</div>
             </div>
           ) : (

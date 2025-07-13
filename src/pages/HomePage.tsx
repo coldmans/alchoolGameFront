@@ -32,8 +32,8 @@ function HomePage() {
   return (
     <div className="min-h-screen bg-gradient-to-br from-purple-600 to-blue-600 flex items-center justify-center p-4">
       <div className="bg-white rounded-lg shadow-xl p-8 max-w-md w-full text-center">
-        <h1 className="text-3xl font-bold text-gray-800 mb-2">🍻 펜션 뽑기 게임</h1>
-        <p className="text-gray-600 mb-8">친구들과 함께 즐기는 벌칙 뽑기!</p>
+        <h1 className="text-3xl font-bold text-gray-800 mb-2">🍻문병신 게임</h1>
+        <p className="text-gray-600 mb-8">뽑아라 시발아...!</p>
 
         <button
           onClick={handleCreateRoom}
